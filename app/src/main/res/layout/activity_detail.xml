@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/dtl_parkname"
+        android:text="Nama Kawasan Industri"/>
+
+    <ImageView
+        android:id="@+id/dtl_parkimg"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/dtl_parkname"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dtl_parkimg"
+        android:id="@+id/dtl_parkdata"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Lokasi"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:text="Lokasi_detail"
+                android:textSize="14sp"
+                android:id="@+id/dtl_parklocation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Luas lahan"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:text="Lahan_detail"
+                android:textSize="14sp"
+                android:id="@+id/dtl_parkwide"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Pengembang"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:text="Pengembang_detail"
+                android:textSize="14sp"
+                android:id="@+id/dtl_parkdeveloper"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Website"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:text="Web_detail"
+                android:textSize="14sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textColorLink="@android:color/holo_blue_light"
+                android:id="@+id/dtl_parkweb"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/dtl_parkdata"
+        android:id="@+id/dtl_parkdesc"
+        android:text="Deskripsi"
+        android:justificationMode="inter_word"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

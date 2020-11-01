@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IndustrialPark</string>
+    <string name="ipark_name">Nama Kawasan Industri</string>
+    <string name="ipark_location">Lokasi</string>
+    <string name="ipark_wide">Luas</string>
+    <string name="ipark_developer">Pengelola</string>
+    <string name="ipark_web">Website</string>
+    <string name="ipark_desc">Deskripsi</string>
+    <string name="aboutme">About Me</string>
+    <string name="aboutapp">About Apps</string>
+
+</resources>

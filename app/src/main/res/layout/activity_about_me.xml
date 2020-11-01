@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMeActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgv_me"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/imgv_me"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_purple"
+        android:textAlignment="center"
+        android:text="Text Name" />
+
+    <TextView
+        android:id="@+id/tv_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tv_name"
+        android:textSize="20sp"
+        android:textColor="@android:color/secondary_text_dark_nodisable"
+        android:textAlignment="center"
+        android:text="Text Name" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_mail">
+
+        <ImageView
+            android:id="@+id/imgvIg"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:id="@+id/imgvLinkedin"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="65dp" />
+
+    </LinearLayout>
+</RelativeLayout>

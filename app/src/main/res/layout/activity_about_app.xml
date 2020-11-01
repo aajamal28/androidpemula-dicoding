@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutAppActivity">
+
+    <ImageView
+        android:id="@+id/imgv_app"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/indpark"/>
+
+    <TextView
+        android:id="@+id/tv_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgv_app"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="IndustrialPark App 1.0"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_app"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:text="Dibuat untuk memenuhi submission Kelas Belajar Membuat Aplikasi Android Pemula - Dicoding"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>

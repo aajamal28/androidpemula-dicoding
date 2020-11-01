@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/img_item_photo"
+        tools:src="@android:color/darker_gray" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_name"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            tools:text="@string/ipark_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_location"
+            android:layout_marginBottom="6dp"
+            android:textSize="10sp"
+            tools:text="@string/ipark_location" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_wide"
+            android:layout_marginBottom="6dp"
+            android:textSize="10sp"
+            tools:text="@string/ipark_wide" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_developer"
+            android:layout_marginBottom="6dp"
+            android:textSize="10sp"
+            tools:text="@string/ipark_developer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_web"
+            android:layout_marginBottom="6dp"
+            android:textSize="10sp"
+            tools:text="@string/ipark_web" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ipark_desc"
+            android:maxLines="1"
+            android:layout_marginBottom="6dp"
+            android:textSize="10sp"
+            tools:text="@string/ipark_desc" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
